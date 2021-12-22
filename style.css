@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 130px;
+  margin-left: 50px;
+}
+
+.navbar ul {
+  margin-right: 45px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+  font-weight: bold;
+  
+}
+
+.nav_head {
+  margin: 10px;
+  cursor: pointer;
+  
+}
+.nav_seprator{
+ 
+  cursor: context-menu;
+}
+.nav_head:hover {
+  color: greenyellow;
+  
+}
+.banner {
+  background-color: #96f0b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+  color: #202f72;
+}
+
+.banner h4 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.banner h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+
+  margin-bottom: 40px;
+}
+.banner h2 {
+  margin-bottom: 30px;
+}
+
+.get_button {
+  color: #96f0b6;
+  background-color: black;
+
+  margin-bottom: 30px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.get_button:hover{
+  transform: scale(1.05);
+
+}
+.banner h6 {
+  margin-bottom: 50px;
+}
+
+.banner_image {
+  width: 350px;
+  margin-top: 70px;
+  margin-right: 95px;
+}
+.banner2 {
+  background-color: #f46ebe;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 60px;
+  color: #202f72;
+}
+.banner2 h4 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 55px;
+  margin-bottom: 60px;
+}
+.banner2 h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+.banner2 h2 {
+  margin-bottom: 30px;
+}
+
+.banner2 h6 {
+  margin-bottom: 40px;
+  font-size: medium;
+  cursor: pointer;
+}
+.badge1 {
+  width: 150px;
+  cursor: pointer;
+}
+.badge2 {
+  width: 135px;
+  cursor: pointer;
+}
+.banner2_image {
+  width: 100%;
+ 
+}
+.banner3_image {
+  display: flex;
+  
+  margin-left: 100px;
+  width: 500px;
+  height: 600px;
+  
+}
+
+.banner3 {
+  background-color: #2941ab;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 60px;
+  color: #1ed760;
+}
+
+.banner3 h4 {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.banner3 h1 {
+  font-weight: bolder;
+  font-size: 3.5rem;
+
+  margin-bottom: 40px;
+}
+.banner3 h2 {
+  margin-bottom: 50px;
+}
+
+.get_button2 {
+  color: #2941ab;
+  background-color: #1ed760;
+
+  margin-bottom: 170px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.get_button2:hover{
+  transform: scale(1.05);
+}
+footer {
+  background-color: black;
+  height: 500px;
+}
+.footer1 {
+  padding-top: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.logo2 {
+  width: 130px;
+  margin-left: 60px;
+}
+
+.footer_content {
+  display: flex;
+}
+
+.footer_items ul {
+  color: white;
+  font-size: 0.9rem;
+
+  list-style: none;
+  margin-left: 40px;
+}
+
+.footer_items li {
+  padding: 10px;
+}
+.foot_head {
+  color: grey;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.footer_list:hover{
+  cursor: pointer;
+  color: greenyellow;
+}
+
+.social_icons {
+  display: flex;
+  margin-left: 300px;
+}
+.icon_card {
+  background-color: rgb(51, 46, 46);
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+i {
+  font-size: 1.7rem;
+  color: white;
+  cursor: pointer;
+}
+i:hover{
+  color: greenyellow;
+}
+.footer2_content ul{
+  margin-left: 40px;
+  display: flex;
+  color: grey;
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  justify-content: left;
+  margin-top: 120px;
+  margin-left: 60px;
+  
+}
+.footer2_content li{
+  margin-right: 25px;
+  cursor: pointer;
+}
+.footer2_content li:hover{
+  color: greenyellow;
+}
+.footer2_right ul{
+ display: flex;
+ font-size: 00.7rem;
+  margin-right: 90px;
+  color: grey;
+  justify-content: right;
+  list-style: none;
+  
+}
+
